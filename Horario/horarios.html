@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	
+  <head>
+    
+ <style>
+
+body {
+
+/* Ubicación de la imagen */
+
+background-image: url(https://www.wallpapertip.com/wmimgs/4-45448_mac-abstract-wallpaper-white.jpg);
+
+/* Para dejar la imagen de fondo centrada, vertical y
+
+horizontalmente */
+
+background-position: center center;
+
+/* Para que la imagen de fondo no se repita */
+
+background-repeat: no-repeat;
+
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+background-attachment: fixed;
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+}
+
+*{margin:0; padding:0;}
+
+
+header {
+   width:100%;
+   
+   background:#ffffff;
+   margin-bottom:20px;
+   
+         
+   
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1000px;
+    
+    overflow:hidden;
+
+}
+
+
+header nav {
+    float:right;
+    line-height:100px;
+    
+    
+}
+ 
+header nav a {
+    display:inline-block;
+    color:#000000;
+    text-decoration:none;
+    padding:10px 20px;
+    line-height:normal;
+    font-size:20px;
+    font-weight:bold;
+    -webkit-transition:all 300ms ease;
+    -o-transition:all 300ms ease;
+    transition:all 300ms ease;
+    border-radius:50px;
+     
+}
+ 
+header nav a:hover {
+    background:#f40000;
+    
+
+}
+
+.logo {
+    width:150px;
+    height:100px;
+    float:left;
+    
+}
+
+#logo {
+    line-height:100px;
+  
+}
+
+.header2{
+    position: fixed;
+    height: 50px;
+ 
+
+}
+
+.header2 .logo {
+     line-height:50px;
+     
+}
+
+.header2 nav {
+     line-height: 50px;
+
+}
+
+@media screen and (max-width: 950px) {
+    header .logo,
+    header nav{
+         width:100%;
+         text-align:center;
+         line-height:50px;
+   }
+ 
+}
+
+.opciones1 {
+  
+  border-style:solid;;
+  border-color:#f40000;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-top: 5%;
+  margin-left: 24.5%;
+ 
+  
+  
+}
+.texto1 {
+  text-align: center;
+  font-size: 1.4rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  
+  
+}
+.opciones2 {
+  border-style:solid;;
+  border-color:#f40000;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-left: 55.5%;
+  margin-top:-19%;
+  
+  
+ 
+}
+.texto2 {
+  text-align:center;
+  font-size: 1.4rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left:6px;
+}
+.opciones3 {
+  border-style:solid;;
+  border-color:#f40000;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-left: 24.5%;
+  margin-top: 5.5%;
+  
+}
+.texto3 {
+  font-size: 1.4rem; 
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  margin-left: 1.1rem;
+  
+ 
+}
+.opciones4 {
+  border-style:solid;;
+  border-color:#f40000;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-left: 55.5%;
+  margin-top: -19%;
+  
+  
+}
+.texto4 {
+  text-align: center;
+  font-size: 1.4rem; 
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 2.9rem;
+} 
+.opciones1 {
+
+    
+  
+     -webkit-transform: scale(1,1);
+     -webkit-transition-timing-function: ease-out;
+     -webkit-transition-duration: 250ms;
+     -moz-transform: scale(1,1);
+     -moz-transition-timing-function: ease-out;
+     moz-transition-duration: 250ms;
+}
+.opciones1:hover{
+     
+     -webkit-transform: scale(1.12,1.12);
+     -webkit-transition-timing-function: ease-out;
+     -webkit-transition-duration: 100ms;
+     -moz-transform: scale(1.12,1.12);
+     -moz-transition-timing-function: ease-out;
+     -moz-transition-duration: 100ms;
+
+     box-shadow: 0 0 10px #f40000, 0 0 40px #f40000, 0 0 80px #f40000;
+}
+
+.opciones2 {
+
+    
+  
+     -webkit-transform: scale(1,1);
+     -webkit-transition-timing-function: ease-out;
+     -webkit-transition-duration: 250ms;
+     -moz-transform: scale(1,1);
+     -moz-transition-timing-function: ease-out;
+     moz-transition-duration: 250ms;
+}
+.opciones2:hover{
+     
+     -webkit-transform: scale(1.12,1.12);
+     -webkit-transition-timing-function: ease-out;
+     -webkit-transition-duration: 100ms;
+     -moz-transform: scale(1.12,1.12);
+     -moz-transition-timing-function: ease-out;
+     -moz-transition-duration: 100ms;
+
+     box-shadow: 0 0 10px #f40000, 0 0 40px #f40000, 0 0 80px #f40000;
+}
+
+.opciones3 {
+
+    
+  
+     -webkit-transform: scale(1,1);
+     -webkit-transition-timing-function: ease-out;
+     -webkit-transition-duration: 250ms;
+     -moz-transform: scale(1,1);
+     -moz-transition-timing-function: ease-out;
+     moz-transition-duration: 250ms;
+}
+.opciones3:hover{
+     
+     -webkit-transform: scale(1.12,1.12);
+     -webkit-transition-timing-function: ease-out;
+     -webkit-transition-duration: 100ms;
+     -moz-transform: scale(1.12,1.12);
+     -moz-transition-timing-function: ease-out;
+     -moz-transition-duration: 100ms;
+
+     box-shadow: 0 0 10px #f40000, 0 0 40px #f40000, 0 0 80px #f40000;
+}
+.opciones4 {
+
+    
+  
+     -webkit-transform: scale(1,1);
+     -webkit-transition-timing-function: ease-out;
+     -webkit-transition-duration: 250ms;
+     -moz-transform: scale(1,1);
+     -moz-transition-timing-function: ease-out;
+     moz-transition-duration: 250ms;
+}
+.opciones4:hover{
+     
+     -webkit-transform: scale(1.12,1.12);
+     -webkit-transition-timing-function: ease-out;
+     -webkit-transition-duration: 100ms;
+     -moz-transform: scale(1.12,1.12);
+     -moz-transition-timing-function: ease-out;
+     -moz-transition-duration: 100ms;
+
+     box-shadow: 0 0 10px #f40000, 0 0 40px #f40000, 0 0 80px #f40000;
+}
+ 
+     
+
+
+
+a {
+  text-align: none;
+  color:#000000;
+}
+
+.linea1{
+    margin: 0 auto;
+    display: block;
+    background-color: #f40000;
+    width: 107px;
+    height: 5px;
+    margin-top:-36%;
+  
+}
+.linea2{
+    margin: 0 auto;
+    display: block;
+    background-color: #f40000;
+    width: 107px;
+    height: 4px;
+    margin-top:25%;
+}
+.linea3{
+    margin: 0 auto;
+    display: block;
+    background-color: #f40000;
+    width: 50px;
+    height: 4px;
+    margin-top:-14%;
+    transform: rotate(90deg);
+    margin-left: 32.5%;
+}
+.linea4{
+    margin: 0 auto;
+    display: block;
+    background-color: #f40000;
+    width: 50px;
+    height: 4px;
+    margin-top:0.5%;
+    transform: rotate(90deg);
+    margin-left: 63.5%;
+}
+
+
+
+a {
+   text-decoration: none;
+
+}
+body {
+    font-family: "Segoe UI", sans-serif;
+    font-size:100%;
+}
+
+.sidebar {
+    position: relative;
+    height: 70%;
+    width: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding: 1rem 0;
+    box-sizing:border-box;
+    float: right;
+}
+
+.sidebar .boton-cerrar {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 2rem;
+    display: block;
+    padding: 0;
+    line-height: 1.5rem;
+    margin: 0;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.sidebar ul, .sidebar li{
+    margin:0;
+    padding:0;
+    list-style:none inside;
+}
+
+.sidebar ul {
+    margin: 4rem auto;
+    display: block;
+    width: 80%;
+    min-width:200px;
+}
+
+.sidebar a {
+    display: block;
+    font-size: 120%;
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+.sidebar a:hover{
+    color:#ffffff;
+    background-color: #ff0000;
+
+}
+
+
+#contenido {
+    transition: margin-left .4s;
+    padding: 1rem;
+}
+
+.abrir-cerrar {
+    color: #2E88C7;
+    font-size:1rem;   
+}
+#abrir {
+
+
+}
+
+
+#cerrar {
+    display:none;
+}
+.icono1 {
+    margin-left: 40%;
+    padding:5px;
+    
+}
+.icono2 {
+    margin-left: 40%;
+    padding:5px;
+}
+.icono3 {
+    margin-left: 40%;
+    padding:5px;
+}
+.icono5 {
+    margin-left: 40%;
+    padding:2px;
+}
+.icono6 {
+    margin-left: 40%;
+    padding:2px;
+}
+.icono7 {
+    margin-top: 15%;
+    padding: 2px;
+    height: 10px;
+}
+   
+    
+
+img {
+ border-radius: 50%;
+ margin: 0 auto;
+ display: block;
+}
+
+
+
+#usuario {
+   font-size: 1.4rem;
+    text-align: center;
+   margin-top: 3%;
+   
+}
+
+
+    </style>
+         
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
+	
+        <link rel = "preconnect" href = "https://fonts.gstatic.com">
+        <link href = "https://fonts.googleapis.com/css2? family = Newsreader & display = swap" rel = "hoja de estilo ">
+
+    </head>
+
+   <body>
+
+	 <header class="">
+         <div class="logo">
+         <img src="C:\Users\Mati\Desktop\helpme.png" class="logo" id="logo"></div>
+         <div class="wrapper">
+         <nav>
+            <a href="C:/Users/Mati/Desktop/Help%20Me/Inicio.html">Inicio</a>
+            <a href="#">Escuelas</a>
+            <a href="#">Viajes</a>
+            <a href="#">Servicios</a>
+            <a href="#">Proyectos</a>
+            <a href="#">Contacto</a> 
+            <a href="javascript:void(0)" onclick="mostrar()"><i class="fa fa-bars"></i></a>
+         </nav> 
+         </div>
+
+      
+           <div id="sidebar" class="sidebar" style="width: 0px;">
+           <a href="#" class="boton-cerrar" onclick="ocultar()">x</a>
+           <div id="foto"><img src="C:\Users\Mati\Desktop\pp2.jpg" <="" div="">
+           <div id="usuario" href="#"><strong>Luis Lipner</strong></div>  
+               
+               <ul class="menu">
+               <li><a href="#"><u><i class="icono fa fa-user" aria-hidden="true"></i>Mi cuenta</u></a>
+               
+               </li><li><a href="#"><i class="icono1 fa fa-pencil-square-o" aria-hidden="true"></i>Perfil</a></li>
+               <li><a href="#"><i class="icono2 fa fa-question-circle" aria-hidden="true"></i>Preguntas</a></li>
+               <li><a href="#"><i class="icono3 fa fa-folder-open" aria-hidden="true"></i>Mis apuntes</a></li>
+                
+               
+             
+               <li><a href="#"><u><i class="icono4 fa fa-university" aria-hidden="true"></i>Mi escuela</u></a>
+               
+               </li><li><a href="#"><i class="icono5 fa fa-newspaper-o" aria-hidden="true"></i>Noticias</a></li>
+               <li><a href="#"><i class="icono6 fa fa-history" aria-hidden="true"></i>Información</a></li>
+               
+               
+               <li><a href="C:/Users/Mati/Desktop/Help%20Me/P%C3%A1g.%20Principal.html"><i class="icono7 fa fa-sign-out" aria-hidden="true"></i>Cerrar Sesión</a></li>
+            </ul>
+          </div>
+
+          
+
+
+
+          	
+     </div>
+
+     </header>
+
+
+         
+      
+             
+      
+
+
+
+
+
+
+          	
+     
+         
+          <div class="opciones1">
+          <a href="C:/Users/Mati/Desktop/Help%20Me/Horarios/Qu%C3%A9%20materias%20tengo%20hoy.html"</a>
+          <div class="texto1"><strong>¿Qué materias tengo hoy?</strong>
+        </div>
+        </div>
+          <div class="opciones2">
+          <a href="C:/Users/Mati/Desktop/Help%20Me/Horarios/Horario%20completo.html"</a>
+          <div class="texto2"><strong>Horario completo de...</strong>
+        </div>
+        </div>
+          <div class="opciones3">
+          <a href="C:/Users/Mati/Desktop/Help%20Me/Horarios/Buscar%20una%20materia.html"</a>
+          <div class="texto3"><strong>Buscar una materia</strong>
+        </div> 
+        </div>
+	  <div class="opciones4">
+          <a href="C:/Users/Mati/Desktop/Help%20Me/Horarios/Recordatorios.html"</a>
+          <div class="texto4"><strong>Recordatorios</strong>
+        </div>
+        </div> 
+        <div class="lineas">
+        <div class="linea1"></div>
+        <div class="linea2"></div>
+        <div class="linea3"></div>
+        <div class="linea4"></div>
+        </div>
+       
+
+      
+       <script>
+function mostrar() {
+    document.getElementById("sidebar").style.width = "300px";
+    document.getElementById("contenido").style.marginLeft = "300px";
+    document.getElementById("abrir").style.display = "none";
+    document.getElementById("cerrar").style.display = "inline";
+}
+
+function ocultar() {
+    document.getElementById("sidebar").style.width = "0";
+    document.getElementById("contenido").style.marginLeft = "0";
+    document.getElementById("abrir").style.display = "inline";
+    document.getElementById("cerrar").style.display = "none";
+}
+</script>
+   
+      
+   </body>
+  
+  
+</html>
+
