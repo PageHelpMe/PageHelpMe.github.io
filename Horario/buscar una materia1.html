@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+
+<head>
+    
+ <style>
+
+body {
+
+/* Ubicaci�n de la imagen */
+
+background-image: url(https://www.wallpapertip.com/wmimgs/4-45448_mac-abstract-wallpaper-white.jpg);
+
+/* Para dejar la imagen de fondo centrada, vertical y
+
+horizontalmente */
+
+background-position: center center;
+
+/* Para que la imagen de fondo no se repita */
+
+background-repeat: no-repeat;
+
+/* La imagen se fija en la ventana de visualizaci�n para que la altura de la imagen no supere a la del contenido */
+
+background-attachment: fixed;
+
+/* La imagen de fondo se reescala autom�ticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+}
+
+*{margin:0; padding:0;}
+
+
+header {
+   width:100%;
+   
+   background:#ffffff;
+   margin-bottom:20px;
+   
+         
+   
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1000px;
+    
+    overflow:hidden;
+
+}
+
+
+header nav {
+    float:right;
+    line-height:100px;
+    
+    
+}
+ 
+header nav a {
+    display:inline-block;
+    color:#000000;
+    text-decoration:none;
+    padding:10px 20px;
+    line-height:normal;
+    font-size:20px;
+    font-weight:bold;
+    -webkit-transition:all 300ms ease;
+    -o-transition:all 300ms ease;
+    transition:all 300ms ease;
+    border-radius:50px;
+     
+}
+ 
+header nav a:hover {
+    background:#f40000;
+    
+
+}
+
+.logo {
+    width:150px;
+    height:100px;
+    float:left;
+    
+}
+
+#logo {
+    line-height:100px;
+  
+}
+
+.header2{
+    position: fixed;
+    height: 50px;
+ 
+
+}
+
+.header2 .logo {
+     line-height:50px;
+     
+}
+
+.header2 nav {
+     line-height: 50px;
+
+}
+
+@media screen and (max-width: 950px) {
+    header .logo,
+    header nav{
+         width:100%;
+         text-align:center;
+         line-height:50px;
+   }
+ 
+}
+
+
+.título{
+   text-align: center;
+   font-size: 2rem;
+   margin-top:5%;
+   margin-bottom:2px;
+}
+a {
+   text-decoration: none;
+
+}
+body {
+    font-family: "Segoe UI", sans-serif;
+    font-size:100%;
+}
+
+.sidebar {
+    position: relative;
+    height: 70%;
+    width: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding: 1rem 0;
+    box-sizing:border-box;
+    float: right;
+}
+
+.sidebar .boton-cerrar {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 2rem;
+    display: block;
+    padding: 0;
+    line-height: 1.5rem;
+    margin: 0;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.sidebar ul, .sidebar li{
+    margin:0;
+    padding:0;
+    list-style:none inside;
+}
+
+.sidebar ul {
+    margin: 4rem auto;
+    display: block;
+    width: 80%;
+    min-width:200px;
+}
+
+.sidebar a {
+    display: block;
+    font-size: 120%;
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+.sidebar a:hover{
+    color:#ffffff;
+    background-color: #ff0000;
+
+}
+
+
+#contenido {
+    transition: margin-left .4s;
+    padding: 1rem;
+}
+
+.abrir-cerrar {
+    color: #2E88C7;
+    font-size:1rem;   
+}
+
+#abrir {
+    
+}
+#cerrar {
+    display:none;
+}
+.icono1 {
+    margin-left: 40%;
+    padding:5px;
+    
+}
+.icono2 {
+    margin-left: 40%;
+    padding:5px;
+}
+.icono3 {
+    margin-left: 40%;
+    padding:5px;
+}
+.icono5 {
+    margin-left: 40%;
+    padding:2px;
+}
+.icono6 {
+    margin-left: 40%;
+    padding:2px;
+}
+.icono7 {
+    margin-top: 15%;
+    padding: 2px;
+    height: 10px;
+}
+   
+    
+
+img {
+ border-radius: 50%;
+ margin: 0 auto;
+ display: block;
+}
+
+
+
+#usuario {
+   font-size: 1.4rem;
+    text-align: center;
+   margin-top: 3%;
+   
+}
+
+
+
+.search-button1{width:100px;height:50px;display: inline-table;}
+.container{width:200px;position:relative}
+.container .lupa{position:absolute;font-size: x-large;margin-top:20px;color:#FFF;-webkit-transition:.3s ease-out;transition:.3s ease-out}
+#search{width:70px;height:70px;background-color:#000000;color:#FFF;border:none;font-size:2rem;text-align:center;padding-left:70px;-webkit-transition:.6s ease-out;transition:.6s ease-out}
+#search:active,#search:focus{outline:0;width:200px;padding-right:20px}
+.container:hover #search{width:200px;background-color:#ff0000}
+.container:hover .lupa{color:#ffffff}
+::-webkit-input-placeholder{color:#ffffff}
+:-moz-placeholder{color:#ffffff}
+::-moz-placeholder{color:#ffffff}
+:-ms-input-placeholder{color:#ffffff}
+span.lupa{
+  margin-left:12px;
+
+}
+ 
+.search-button3{width:100px;height:50px;display: inline-table;}
+.container2{width:200px;position:relative}
+.container2 .lupa{position:absolute;font-size: x-large;margin-top:20px;color:#FFF;-webkit-transition:.3s ease-out;transition:.3s ease-out}
+#search1{width:120px;height:70px;background-color:#000000;color:#FFF;border:none;font-size:2rem;text-align:center;padding-left:120px;-webkit-transition:.6s ease-out;transition:.6s ease-out}
+#search1:active,#search1:focus{outline:0;width:200px;padding-right:20px}
+.container2:hover #search1{width:350px;background-color:#ff0000}
+.container2:hover .lupa{color:#ffffff}
+::-webkit-input-placeholder{color:#ffffff}
+:-moz-placeholder{color:#ffffff}
+::-moz-placeholder{color:#ffffff}
+:-ms-input-placeholder{color:#ffffff}
+span.lupa{
+  margin-left:12px;
+
+
+}
+
+.search-button4{width:100px;height:50px;display: inline-table;}
+.container3{width:200px;position:relative}
+.container3 .buscador{position:absolute;font-size: x-large;margin-top:20px;color:#FFF;-webkit-transition:.3s ease-out;transition:.3s ease-out}
+#search{width:70px;height:70px;background-color:#000000;color:#FFF;border:none;font-size:2rem;text-align:center;padding-left:70px;-webkit-transition:.6s ease-out;transition:.6s ease-out}
+#search:active,#search:focus{outline:0;width:200px;padding-right:20px}
+.buscador:hover {color:ff0000;}
+.container3:hover .buscador{color:#ff0000;}
+::-webkit-input-placeholder{color:#ffffff}
+:-moz-placeholder{color:#ffffff}
+::-moz-placeholder{color:#ffffff}
+:-ms-input-placeholder{color:#ffffff}
+span.buscador{
+  margin-left:23px;
+
+}
+
+a:hover {
+  color: #ff0000;
+
+}
+a {color: #ffffff}
+
+
+.datagrid table { border-collapse: collapse; text-align: center; width: 100%; } .datagrid {font: normal 12px/150% Ginebra, Arial, Helvetica, sans-serif; background: #fff;overflow:hidden;border: 1px solid #FF0000; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; }.datagrid table td, .datagrid table th { padding: 9px 15px; }.datagrid table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #FF0000), color-stop(1, #80141C) );background:-moz-linear-gradient( center top, #FF0000 5%, #80141C 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0000', endColorstr='#80141C');background-color:#FF0000; color:#FFFFFF; font-size: 21px; font-weight: bold; border-left: 1px solid #000000; } .datagrid table thead th:first-child { border: none; }.datagrid table tbody td { color: #000000; border-left: 1px solid #000000;font-size: 16px;border-bottom: 3px solid #000000;font-weight: bold; }.datagrid table tbody .alt td { background: #EBF9FF; color: #000000; }.datagrid table tbody td:first-child { border-left: none; }.datagrid table tbody tr:last-child td { border-bottom: none; }
+
+caption {
+   font-size: 30px;
+}
+.contentback  {margin-top: 5%;}
+
+.container {margin-left:130%;}
+
+.container2 {margin-left:130%;}
+.container3 {margin-left:200%;}
+    
+
+
+
+.card {
+	height: 400px;
+	width: 300px;
+	margin-left: 90px;
+        margin-top: 10%;
+	transform-style: preserve-3d;
+	transform: perspective(px);
+}
+
+.card2 {
+	height: 400px;
+	width: 300px;
+	margin-left: 490px;
+        margin-top: -31%;
+	transform-style: preserve-3d;
+	transform: perspective(px);
+
+}
+
+.card3 {
+	height: 400px;
+	width: 300px;
+	margin-left: 890px;
+        margin-top: -31.5%;
+	transform-style: preserve-3d;
+	transform: perspective(px);
+
+}
+
+
+
+.back  {
+	height: 400px;
+	width: 300px;
+	
+}
+
+
+.front, .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+}
+
+.front, .back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+.back {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card:hover .front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card:hover .back {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
+
+
+.card2:hover .front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card2:hover .back {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
+
+
+.card3:hover .front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card3:hover .back {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
+
+
+.howbox:hover .indexdev {
+	padding-top: 0;
+}
+
+.Dia {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 300px;
+    color: #000000
+
+}
+
+table {
+   
+     margin-top: 25%;
+   
+}
+
+.tabla { border-collapse: collapse; text-align: left; width: 100%; }
+
+
+ .tabla {font: normal 12px/150% Ginebra, Arial, Helvetica, sans-serif; background: #fff; overflow: hidden; border: 1px solid #FF0000; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; }
+
+ .tabla td, .tabla th { padding: 14px 19px; }
+
+ .tabla thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #FF0000), color-stop(1, #80141C) );background:-moz-linear-gradient( center top, #FF0000 5%, #80141C 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0000', endColorstr='#80141C');background-color:#FF0000; color:#FFFFFF; font-size: 20px; font-weight: bold; border-left: 1px solid #000000; } .tabla thead th:first-child { border: none; }.tabla tbody td { color: #000000; border-left: 1px solid #000000;font-size: 20px;border-bottom: 3px solid #000000;font-weight: bold; }.tabla tbody .alt td { background: #EBF9FF; color: #000000; } .tabla tbody td:first-child { border-left: none; }.tabla tbody tr:last-child td { border-bottom: none; }
+
+caption {
+   font-size: 30px;
+}
+ 
+.tabla {text-align: center;}
+
+
+
+    </style>
+         
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
+	
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2? family = Newsreader &amp; display = swap" rel="hoja de estilo ">
+
+    </head>
+
+   <body>
+
+	 <header class="">
+         <div class="logo">
+         <img src="C:\Users\Mati\Desktop\helpme.png" class="logo" id="logo"></div>
+         <div class="wrapper">
+         <nav>
+            <a href="C:/Users/Mati/Desktop/Help%20Me/Inicio.html">Inicio</a>
+            <a href="#">Escuelas</a>
+            <a href="#">Viajes</a>
+            <a href="#">Servicios</a>
+            <a href="#">Proyectos</a>
+            <a href="#">Contacto</a> 
+            <a href="javascript:void(0)" onclick="mostrar()"><i class="fa fa-bars"></i></a> 
+         </nav> 
+         </div>
+
+        
+
+      
+          <div id="sidebar" class="sidebar" style="width: 300px;">
+           <a href="#" class="boton-cerrar" onclick="ocultar()">x</a>
+           <div id="foto"><img src="C:\Users\Mati\Desktop\pp2.jpg" <="" div="">
+           <div id="usuario" href="#"><strong>Luis Lipner</strong></div>  
+               
+               <ul class="menu">
+               <li><a href="#"><u><i class="icono fa fa-user" aria-hidden="true"></i>Mi cuenta</u></a>
+               
+               </li><li><a href="#"><i class="icono1 fa fa-pencil-square-o" aria-hidden="true"></i>Perfil</a></li>
+               <li><a href="#"><i class="icono2 fa fa-question-circle" aria-hidden="true"></i>Preguntas</a></li>
+               <li><a href="#"><i class="icono3 fa fa-folder-open" aria-hidden="true"></i>Mis apuntes</a></li>
+                
+               
+             
+               <li><a href="#"><u><i class="icono4 fa fa-university" aria-hidden="true"></i>Mi escuela</u></a>
+               
+               </li><li><a href="#"><i class="icono5 fa fa-newspaper-o" aria-hidden="true"></i>Noticias</a></li>
+               <li><a href="#"><i class="icono6 fa fa-history" aria-hidden="true"></i>Información</a></li>
+               
+               
+               <li><a href="C:/Users/Mati/Desktop/Help%20Me/P%C3%A1g.%20Principal.html"><i class="icono7 fa fa-sign-out" aria-hidden="true"></i>Cerrar Sesión</a></li>
+            </ul>
+          </div>
+
+          
+
+
+
+          	
+     </div></header>
+
+ 
+     <aside class="search-button1">
+ <div class="container">
+ <span class="lupa">
+ <p class="año"><strong>Año</strong></p>
+ </span>
+ <input type="search" id="search" 
+ </div>
+</aside>
+
+ 
+     <aside class="search-button1">
+ <div class="container">
+ <span class="lupa">
+ <p class="div"><strong>Div</strong></p>
+ </span>
+ <input type="search" id="search" 
+ </div>
+</aside>
+
+     
+     <aside class="search-button3">
+ <div class="container2">
+ <span class="lupa">
+ <p class="esc"><strong>Materia</strong></p>
+ </span>
+ <input type="search" id="search1" 
+ </div>
+</aside>
+
+ 
+    
+     <aside class="search-button4">
+ <div class="container3">
+ <span class="buscador">
+ <a href="#">
+ <i class="fa fa-search"></i>
+ </span>
+ <input type="search" id="search" 
+ </div>
+</aside>
+ 
+ 
+<div class="cardcon">									
+
+     <div class="card">
+										
+      <div class="front">
+	<p class="Dia">Martes</p>
+          </div>
+        
+ 										
+      
+ 
+<div class="back">
+ 
+  <table class="tabla">
+<thead><tr><th>Hora</th></tr></thead>
+<tr class="alt"><tr><td>11:40hs. a 12:20hs.</td></tr>
+<thead><tr><th>Profesor/a</td></tr></thead>
+<tr class="alt"><tr><td>María Eugenia Meyer</td></tr>
+</table>
+</div>
+</div>
+</div>
+
+
+
+<div class="cardcon">									
+
+     <div class="card2">
+										
+      <div class="front">
+	<p class="Dia">Miércoles</p>
+          </div>
+        
+ 										
+      
+ 
+<div class="back">
+ 
+  <table class="tabla">
+<thead><tr><th>Hora</th></tr></thead>
+<tr class="alt"><tr><td>07:15hs. a 08:35hs.</td></tr>
+<thead><tr><th>Profesor/a</td></tr></thead>
+<tr class="alt"><tr><td>María Eugenia Meyer</td></tr>
+</table>
+</div>
+</div>
+</div>
+
+
+<div class="cardcon">									
+
+     <div class="card3">
+										
+      <div class="front">
+	<p class="Dia">Viernes</p>
+          </div>
+        
+ 										
+      
+ 
+<div class="back">
+ 
+  <table class="tabla">
+<thead><tr><th>Hora</th></tr></thead>
+<tr class="alt"><tr><td>10:15hs. a 10:55hs.</td></tr>
+<thead><tr><th>Profesor/a</td></tr></thead>
+<tr class="alt"><tr><td>María Eugenia Meyer</td></tr>
+</table>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+ 
+       <script>
+function mostrar() {
+    document.getElementById("sidebar").style.width = "300px";
+    document.getElementById("contenido").style.marginLeft = "300px";
+    document.getElementById("abrir").style.display = "none";
+    document.getElementById("cerrar").style.display = "inline";
+}
+
+function ocultar() {
+    document.getElementById("sidebar").style.width = "0";
+    document.getElementById("contenido").style.marginLeft = "0";
+    document.getElementById("abrir").style.display = "inline";
+    document.getElementById("cerrar").style.display = "none";
+}
+</script>
+
+   
+  
+  
+
+
+</body>
+</html>
