@@ -1,0 +1,40 @@
+<DOCTYPE html>
+<html lang="es">
+<head>
+</head>
+<body>
+        <h1 class="reuniones">Reuniones</h1>
+        <div class="msjauto">
+           <p class="mensaj">Por el momento no hay reuniones pactadas</p>
+           <button class="button" class="nuevareu"><i class="fa fa-calendar-plus-o" aria-hidden="true"></i>Nueva Reunión</button>
+           <button class="button" class="aviso"><i class="fa fa-calendar-plus-o" aria-hidden="true"></i>No puedo asistir</button>
+        </div>
+         <form>
+          <fieldset>
+              <h2 class="nuereu">Nueva Reunión</h2>
+              <p>Enfocada en:<br>
+                 <input type="checkbox" name="padres">Padres<br>
+                 <input type="checkbox" name="prof">Profesores<br>
+                 <input type="checkbox" name="dir">Directivos
+              </p>
+              <p><label>Fecha:<br> <textarea name="f_reu"></textarea</label></p>
+           <p>
+               <label>
+                   Motivo:<br>
+                     <textarea name="motiv"></textarea>
+               </label>
+           </p>
+          </fieldset>
+           <p>
+                 <input type="submit" value="Publicar">
+        <form>
+          <fieldset>
+              <h2 class="inasis">Entendemos que no pueda asistir, por favor, ingrese sus datos para confirmar>
+              <p><label>Padre/Madre/Tutor de:<br> <textarea name="cargo"></textarea</label></p>
+                <p><label>Curso:<br> <textarea name="curso"></textarea></label></p>
+          </fieldset>
+           <p>
+                 <input type="submit" value="Enviar"></p>
+        </form>
+</body>
+</html>
