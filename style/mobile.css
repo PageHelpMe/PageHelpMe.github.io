@@ -1,7 +1,6 @@
 @media screen and (max-width:400px) {
         .contenedor_univ {
           width: 100%;
-          max-height: 100%;
         }
         * {
         margin: 0;
