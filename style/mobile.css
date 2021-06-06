@@ -36,6 +36,7 @@ background-size: cover;
         margin-bottom: 20px;}
       header nav {
         float: right;
+        line-height:0px;
              
       }
         
