@@ -104,15 +104,7 @@ header nav a:hover {
 .iconos{
  display:none;
 }
-@media screen and (max-width: 950px) {
-    header .logo,
-    header nav{
-         width:100%;
-         text-align:center;
-         line-height:50px;
-   }
-}
-@media screen and (max-width: 950px) {
+
 .opciones1 {
   
   border-style:solid;;
@@ -482,6 +474,6 @@ img {
    margin-top: 3%;
    
 }
-}
+
 
  
