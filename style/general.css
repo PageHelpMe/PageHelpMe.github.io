@@ -104,7 +104,9 @@ header nav a:hover {
 .iconos{
  display:none;
 }
-
+.aparecer{
+ display:none;
+}
 @media screen and (max-width: 950px) {
     header .logo,
     header nav{
