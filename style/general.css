@@ -101,6 +101,9 @@ header nav a:hover {
      line-height: 50px;
 
 }
+.iconos{
+ display:none;
+}
 
 @media screen and (max-width: 950px) {
     header .logo,
