@@ -13,16 +13,15 @@
       header nav {
         float: right;
         line-height: 0px;
-        top:0;
-        position:fixed;      
+             
       }
         
       .wrapper{display: none;}
       }
       #logo {
-        width: 150px;
-        height: 100px;
-        line-height: 100px;
+        width: 100px;
+        height: 80px;
+        line-height: 80px;
       }
       .iconos{
         margin-left: 1%;
