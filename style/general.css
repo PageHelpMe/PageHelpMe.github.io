@@ -29,10 +29,7 @@ background-size: cover;
   display: block;
   margin-bottom: -15%;
   margin-top: 15%;
-
-
- 
-  }
+}
 #Bienvenido {
   color: black;
   font-size: 30px;
@@ -504,6 +501,87 @@ img {
    margin-top: 3%;
    
 }
+.op1 {
+  
+  border-style:solid;;
+  border-color:#f40000;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-top: 5%;
+  margin-left: 24.5%;
+ 
+  
+  
+}
+.text1 {
+  text-align: center;
+  font-size: 1.4rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  
+  
+}
+.op2 {
+  border-style:solid;;
+  border-color:#f40000;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-left: 55.5%;
+  margin-top:-19%;
+  
+  
+ 
+}
+.text2 {
+  text-align:center;
+  font-size: 1.4rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left:6px;
+}
+.op3 {
+  border-style:solid;;
+  border-color:#f40000;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-left: 24.5%;
+  margin-top: 5.5%;
+  
+}
+.text3 {
+  font-size: 1.4rem; 
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  margin-left: 1.1rem;
+  
+ 
+}
+.op4 {
+  border-style:solid;;
+  border-color:#f40000;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-left: 55.5%;
+  margin-top: -19%;
+  
+  
+}
+.text4 {
+  text-align: center;
+  font-size: 1.4rem; 
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 2.9rem;
+} 
 
 
  
