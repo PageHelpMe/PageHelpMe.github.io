@@ -176,12 +176,9 @@ color: #000000;
 .tex1 {
   text-align: center;
   font-size: 1.3rem;
-  position: absolute;
+  position: relative;
   top: 50%;
   transform: translateY(-50%);
-  margin: auto;
-  
-  
 }
 .op2 {
   border-style:solid;;
@@ -191,19 +188,14 @@ color: #000000;
   border-radius: 50%;
   margin-left: 56.5%;
   margin-top:-42%;
-  
-  
- 
-}
+ }
 .tex2 {
   text-align:center;
   font-size: 1.3rem;
-  position: absolute;
+  position: relative;
   top: 50%;
   transform: translateY(-50%);
-  margin:auto;
-  
-}
+ }
 .op3 {
   border-style:solid;;
   border-color:#f40000;
@@ -212,18 +204,14 @@ color: #000000;
   border-radius: 50%;
   margin-left: 1%;
   margin-top: 30%;
-  
-}
+ }
 .tex3 {
   font-size: 1.3rem; 
-  position: absolute;
+  position: relative;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
-  margin:auto;
-  
- 
-}
+ }
 .op4 {
   border-style:solid;;
   border-color:#f40000;
@@ -232,16 +220,13 @@ color: #000000;
   border-radius: 50%;
   margin-left: 56.5%;
   margin-top: -42.5%;
-  
-  
-}
+ }
 .tex4 {
   text-align: center;
   font-size: 1.3rem; 
-  position: absolute;
+  position: relative;
   top: 50%;
   transform: translateY(-50%);
-  margin-left: 4%;
 } 
 .linea1{
     margin: 0 auto;
