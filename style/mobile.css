@@ -280,7 +280,7 @@ color: #000000;
     transform: rotate(90deg);
     margin-left: 65%;
 }
-h1{
+.hora{
     font-size: 2rem;
     margin-top: -5%;
     position: absolute;
