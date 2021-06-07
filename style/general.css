@@ -235,7 +235,7 @@ header nav a:hover {
   font-size: 25px;
   color: #000000;
 }
-.opciones1 {
+.opciones1 .op1 {
 
     
   
@@ -246,7 +246,7 @@ header nav a:hover {
      -moz-transition-timing-function: ease-out;
      moz-transition-duration: 250ms;
 }
-.opciones1:hover{
+.opciones1 .op1:hover{
      
      -webkit-transform: scale(1.12,1.12);
      -webkit-transition-timing-function: ease-out;
@@ -258,7 +258,7 @@ header nav a:hover {
       box-shadow: 0 0 10px #f40000, 0 0 40px #f40000, 0 0 80px #f40000;
 }
 
-.opciones2 {
+.opciones2 .op2 {
 
     
   
@@ -269,7 +269,7 @@ header nav a:hover {
      -moz-transition-timing-function: ease-out;
      moz-transition-duration: 250ms;
 }
-.opciones2:hover{
+.opciones2 .op2:hover{
      
      -webkit-transform: scale(1.12,1.12);
      -webkit-transition-timing-function: ease-out;
@@ -281,7 +281,7 @@ header nav a:hover {
       box-shadow: 0 0 10px #f40000, 0 0 40px #f40000, 0 0 80px #f40000;
 }
 
-.opciones3 {
+.opciones3 .op3 {
 
     
   
@@ -292,7 +292,7 @@ header nav a:hover {
      -moz-transition-timing-function: ease-out;
      moz-transition-duration: 250ms;
 }
-.opciones3:hover{
+.opciones3 .op3:hover{
      
      -webkit-transform: scale(1.12,1.12);
      -webkit-transition-timing-function: ease-out;
@@ -303,7 +303,7 @@ header nav a:hover {
      
       box-shadow: 0 0 10px #f40000, 0 0 40px #f40000, 0 0 80px #f40000;
 }
-.opciones4 {
+.opciones4 .op4 {
 
     
   
@@ -314,7 +314,7 @@ header nav a:hover {
      -moz-transition-timing-function: ease-out;
      moz-transition-duration: 250ms;
 }
-.opciones4:hover{
+.opciones4 .op4:hover{
      
      -webkit-transform: scale(1.12,1.12);
      -webkit-transition-timing-function: ease-out;
