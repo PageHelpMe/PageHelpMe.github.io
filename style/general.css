@@ -452,9 +452,6 @@ body {
     font-size:1rem;   
 }
 
-#abrir {
-    
-}
 #cerrar {
     display:none;
 }
@@ -1101,5 +1098,5 @@ caption {
 	text-decoration: line-through;
 }
 #lista {margin-left: -12%;}
-.iconos{display:none;}
+
     
