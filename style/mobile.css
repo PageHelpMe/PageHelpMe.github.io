@@ -181,7 +181,7 @@ color: #000000;
   transform: translateY(-50%);
 }
 .op2 {
-  border-style:solid;;
+  border-style:solid;
   border-color:#f40000;
   width: 150px;
   height: 150px;
@@ -197,7 +197,7 @@ color: #000000;
   transform: translateY(-50%);
  }
 .op3 {
-  border-style:solid;;
+  border-style:solid;
   border-color:#f40000;
   width: 150px;
   height: 150px;
@@ -213,7 +213,7 @@ color: #000000;
   text-align: center;
  }
 .op4 {
-  border-style:solid;;
+  border-style:solid;
   border-color:#f40000;
   width: 150px;
   height: 150px;
