@@ -233,7 +233,7 @@ body {
       font-size: 25px;
       color: #000000;
     }
-    .opciones1 .op1 {
+    .opciones1 {
     
         
       
@@ -244,7 +244,7 @@ body {
          -moz-transition-timing-function: ease-out;
          -moz-transition-duration: 250ms;
     }
-    .opciones1 .op1:hover{
+    .opciones1:hover{
          
          -webkit-transform: scale(1.12,1.12);
          -webkit-transition-timing-function: ease-out;
@@ -256,7 +256,7 @@ body {
           box-shadow: 0 0 10px #f40000, 0 0 40px #f40000, 0 0 80px #f40000;
     }
     
-    .opciones2 .op2 {
+    .opciones2 {
     
         
       
@@ -267,7 +267,7 @@ body {
          -moz-transition-timing-function: ease-out;
          -moz-transition-duration: 250ms;
     }
-    .opciones2 .op2:hover{
+    .opciones2:hover{
          
          -webkit-transform: scale(1.12,1.12);
          -webkit-transition-timing-function: ease-out;
@@ -279,7 +279,7 @@ body {
           box-shadow: 0 0 10px #f40000, 0 0 40px #f40000, 0 0 80px #f40000;
     }
     
-    .opciones3 .op3 {
+    .opciones3{
     
         
       
@@ -290,7 +290,7 @@ body {
          -moz-transition-timing-function: ease-out;
          -moz-transition-duration: 250ms;
     }
-    .opciones3 .op3:hover{
+    .opciones3:hover{
          
          -webkit-transform: scale(1.12,1.12);
          -webkit-transition-timing-function: ease-out;
@@ -301,7 +301,7 @@ body {
          
           box-shadow: 0 0 10px #f40000, 0 0 40px #f40000, 0 0 80px #f40000;
     }
-    .opciones4 .op4 {
+    .opciones4 {
     
         
       
@@ -312,7 +312,7 @@ body {
          -moz-transition-timing-function: ease-out;
          -moz-transition-duration: 250ms;
     }
-    .opciones4 .op4:hover{
+    .opciones4:hover{
          
          -webkit-transform: scale(1.12,1.12);
          -webkit-transition-timing-function: ease-out;
@@ -996,7 +996,7 @@ body {
     
     .jzdcal {
       padding:0 30px 30px 30px; 
-      box-sizing:border-box!important; 
+      box-sizing:border-box; 
     }
     
     .jzdcalt {
@@ -1059,7 +1059,7 @@ body {
     
     .principal .formulario input[type=text].error {
         border: 5px solid #D32F2F;
-        color: red;
+        color: #f20000;
     }
     
     .principal .formulario .boton {
@@ -1446,7 +1446,7 @@ body {
     @media only screen and (orientation:landscape) {
         #aviso {display: none;}
         .contenedor_univ{display:none;}
-        .datagrid table { border-collapse: collapse; text-align: center; width: 100%; } .datagrid {font: normal 12px/150% Ginebra, Arial, Helv�tica, sans-serif; background: #fff;overflow:hidden;border: 1px solid #FF0000; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; }.datagrid table td, .datagrid table th { padding: 10px 10px; }.datagrid table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #FF0000), color-stop(1, #80141C) );background:-moz-linear-gradient( center top, #FF0000 5%, #80141C 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0000', endColorstr='#80141C');background-color:#FF0000; color:#FFFFFF; font-size: 21px; font-weight: bold; border-left: 1px solid #000000; } .datagrid table thead th:first-child { border: none; }.datagrid table tbody td { color: #000000; border-left: 1px solid #000000;font-size: 16px;border-bottom: 3px solid #000000;font-weight: bold; }.datagrid table tbody .alt td { background: #EBF9FF; color: #000000; }.datagrid table tbody td:first-child { border-left: none; }.datagrid table tbody tr:last-child td { border-bottom: none; }
+        .datagrid table { border-collapse: collapse; text-align: center; width: 100%; } .datagrid {font: normal 12px/150% Ginebra, Arial, Helvetica, sans-serif; background: #fff;overflow:hidden;border: 1px solid #FF0000; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; }.datagrid table td, .datagrid table th { padding: 10px 10px; }.datagrid table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #FF0000), color-stop(1, #80141C) );background:-moz-linear-gradient( center top, #FF0000 5%, #80141C 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0000', endColorstr='#80141C');background-color:#FF0000; color:#FFFFFF; font-size: 21px; font-weight: bold; border-left: 1px solid #000000; } .datagrid table thead th:first-child { border: none; }.datagrid table tbody td { color: #000000; border-left: 1px solid #000000;font-size: 16px;border-bottom: 3px solid #000000;font-weight: bold; }.datagrid table tbody .alt td { background: #EBF9FF; color: #000000; }.datagrid table tbody td:first-child { border-left: none; }.datagrid table tbody tr:last-child td { border-bottom: none; }
     }
     .container{
       width:600px;
